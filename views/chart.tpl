@@ -125,6 +125,11 @@
 						</a>
 					</li>
 					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
+						<a href="javascript:imClick2();">
+							<span class="xxgkzn-icon"></span>
+						</a>
+					</li>
+					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
 						<a href="javascript:roleClick();">
                         <span class="xxgknb-icon"></span>
 						</a>
@@ -385,8 +390,15 @@ function contactsClick(){
         	 navTab.openTab('contactsid','{{.baseurl}}/contacts/show.do',{title:'通讯录管理',fresh:false,rel:'contacts'});
         }
 function imClick(){
-        	 navTab.openTab('imid','{{.baseurl}}/im/main.do',{title:'IM管理',fresh:false,rel:'im'});
-        }
+	navTab.openTab('imid','{{.baseurl}}/im/main.do',{title:'IM管理',fresh:false,rel:'im'});
+	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'IM管理',fresh:false,rel:'im'});
+
+}
+function imClick2(){
+	navTab.openTab('devicesid','{{.baseurl}}/devices/deviceList',{title:'登陆管理',fresh:false,rel:'devices'});
+	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'IM管理',fresh:false,rel:'im'});
+
+}
 function roleClick(){
         	 navTab.openTab('roleid','{{.baseurl}}/role/main.do',{title:'角色管理',fresh:false,rel:'role'});
         }

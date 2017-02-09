@@ -1,3 +1,46 @@
 2017/02/08 12:01:15 [I] [asm_amd64.s:2086] http server Running on http://:10001
 2017/02/08 15:54:42 [I] [asm_amd64.s:2086] http server Running on http://:10001
 2017/02/08 16:29:30 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/08 17:42:57 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 08:32:42 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 08:33:41 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 08:47:55 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 09:02:31 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 10:54:18 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 11:38:47 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] the request url is  /devices/app-16x16.ico
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:devicescontroller/get.tpl
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/09 11:39:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] the request url is  /devices/app-16x16.ico
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:devicescontroller/get.tpl
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/09 11:40:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] the request url is  /devices/app-16x16.ico
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:devicescontroller/get.tpl
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
