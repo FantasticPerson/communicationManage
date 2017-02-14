@@ -11,44 +11,6 @@
     <!--favicon-->
     <link rel="shortcut icon" href="app-16x16.ico?v=0.0.1" sizes="16x16">
     <title>dandan.wu</title>
-    <style type="text/css">
-        #bootstrapLoading {
-            position: absolute;
-            z-index: 9999999;
-            top: 50%;
-            left: 50%;
-            width: 80px;
-            height: 80px;
-            margin: -40px 0 0 -40px;
-        }
-
-        .double-bounce1, .double-bounce2 {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background-color: #007CB9;
-            opacity: 0.6;
-            position: absolute;
-            top: 0;
-            left: 0;
-            animation: bounce 2.0s infinite ease-in-out;
-        }
-
-        .double-bounce2 {
-            animation-delay: -1.0s;
-        }
-
-        @keyframes bounce {
-            0%, 100% {
-                transform: scale(0.0);
-            }
-            50% {
-                transform: scale(1.0);
-            }
-        }
-
-    </style>
-    <script></script>
     <!--headerEmbedJs-->
     <script>
         window.__APP_NAME__ = "dandan.wu";
@@ -66,6 +28,6 @@
 <body>
 <div id="react-root"></div>
 <!--js-->
-<script src="{{.baseurl}}/static/subapp/loginList/main-bundle-[c8d00f3a9b826cf84ecf].js" defer></script>
+<script src="{{.baseurl}}/static/subapp/loginList/main-bundle-[60402c417d0df278ea0f].js" defer></script>
 </body>
 </html>

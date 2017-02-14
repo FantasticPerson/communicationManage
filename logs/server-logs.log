@@ -44,3 +44,51 @@
 2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
 2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
 2017/02/09 11:40:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/14 09:30:35 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/14 09:50:13 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/14 15:47:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/14 15:47:58 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/14 15:48:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/14 15:48:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086

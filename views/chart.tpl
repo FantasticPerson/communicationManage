@@ -126,7 +126,7 @@
 					</li>
 					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
 						<a href="javascript:imClick2();">
-							<span class="xxgkzn-icon"></span>
+						<span class="loginManage-icon"></span>
 						</a>
 					</li>
 					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">

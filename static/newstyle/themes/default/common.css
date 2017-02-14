@@ -48,6 +48,12 @@
 #guideList li.hover .zdgl-icon{
     background-position: 0 -288px;
 }
+#guideList li .loginManage-icon{
+    background-position: -425px 0;
+}
+#guideList li.hover .loginManage-icon{
+    background-position: -425px -288px;
+}
 #guideList li .xxgl-icon{
     background-position: -86px 0;
 }
