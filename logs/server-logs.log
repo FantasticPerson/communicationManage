@@ -92,3 +92,605 @@
 2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
 2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
 2017/02/14 15:48:11 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/14 18:01:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 08:54:59 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 08:55:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 08:59:47 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 09:05:52 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 09:12:16 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 09:36:14 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 09:54:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 10:01:50 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:35:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:36:17 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:40:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:40:45 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:45:29 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 11:49:22 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] the request url is  /app/emps
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] Handler crashed with error interface conversion: interface is nil, not int
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/iface.go:241
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:239
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:30
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:785
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 12:49:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 13:51:58 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] the request url is  /app/assign
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] Handler crashed with error <Ormer> table: `pcontacts/models.T_app_permission` not found, maybe not RegisterModel
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:110
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:165
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:184
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:50
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 14:41:54 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] the request url is  /app/assign
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] Handler crashed with error <Ormer> table: `pcontacts/models.T_app_permission` not found, maybe not RegisterModel
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:110
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:165
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:184
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:50
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 14:46:55 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] the request url is  /app/assign
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] Handler crashed with error <Ormer> table: `pcontacts/models.T_app_permission` not found, maybe not RegisterModel
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:110
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:165
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:184
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:50
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 14:47:30 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] the request url is  /app/assign
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] Handler crashed with error <Ormer> table: `pcontacts/models.T_app_permission` not found, maybe not RegisterModel
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:110
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/orm/orm.go:165
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:184
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:50
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 14:49:12 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 14:53:39 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/15 15:55:45 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 18:04:38 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:125
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:48
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/15 18:05:01 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 08:52:48 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 09:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 09:28:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 14:35:56 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 14:36:28 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 14:44:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 14:44:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/get.tpl
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 14:44:41 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 15:06:45 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/post.tpl
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 16:30:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/post.tpl
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 16:30:42 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] the request url is  /app/appUsers
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] Handler crashed with error can't find templatefile in the path:appcontroller/post.tpl
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/template.go:64
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:249
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:200
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/controller.go:184
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:809
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 16:31:21 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 17:48:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/16 18:24:06 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 08:43:52 [I] [asm_amd64.s:2086] http server Running on http://:10001
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 08:45:09 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 09:09:37 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 09:36:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 09:39:51 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 09:42:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 09:43:03 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:10:35 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:16:08 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:20:24 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:22:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:26:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:26:48 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:27:53 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:28:27 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:55:05 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 11:56:46 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] the request url is  /app/appIcon
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] Handler crashed with error runtime error: invalid memory address or nil pointer dereference
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:479
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:458
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/panic.go:62
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/signal_windows.go:161
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:128
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/pcontacts/controllers/app.go:51
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /Users/yangyanlong/golang/WEB_Server/src/github.com/astaxie/beego/router.go:787
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:2202
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/net/http/server.go:1579
+2017/02/17 12:03:32 [C] [asm_amd64.s:479] /usr/local/go/src/runtime/asm_amd64.s:2086
+2017/02/17 14:54:47 [I] [asm_amd64.s:2086] http server Running on http://:10001

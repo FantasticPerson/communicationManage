@@ -126,7 +126,12 @@
 					</li>
 					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
 						<a href="javascript:imClick2();">
-						<span class="loginManage-icon"></span>
+						<span class="loginManage-icon icon-login"></span>
+						</a>
+					</li>
+					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
+						<a href="javascript:imClick3();">
+							<span class="loginManage-icon icon-apps"></span>
 						</a>
 					</li>
 					<li data-role="2d51091a-3bee-4213-b97b-23996aa84637">
@@ -396,7 +401,12 @@ function imClick(){
 }
 function imClick2(){
 	navTab.openTab('devicesid','{{.baseurl}}/devices/deviceList',{title:'登陆管理',fresh:false,rel:'devices'});
-	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'IM管理',fresh:false,rel:'im'});
+	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'登陆管理',fresh:true,rel:'im'});
+
+}
+function imClick3(){
+	navTab.openTab('appsid','{{.baseurl}}/app/apps',{title:'应用管理',fresh:false,rel:'apps'});
+	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'应用管理',fresh:true,rel:'im'});
 
 }
 function roleClick(){
