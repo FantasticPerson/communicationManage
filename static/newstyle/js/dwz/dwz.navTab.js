@@ -218,24 +218,25 @@ var navTab = {
 		
 		this._scrollCurrent();
 		this._reload($tab);
-		$(window).resize();
 	},
 			
 	_closeTab: function(index, openTabid){
+		$('.navTab-tab').trigger('myClick',{id:index});
+		setTimeout(function(){
+			this._getTabs().eq(index).remove();
+			this._getPanels().eq(index).trigger(DWZ.eventType.pageClear).remove();
+			this._getMoreLi().eq(index).remove();
+			if (this._currentIndex >= index) this._currentIndex--;
 
-		this._getTabs().eq(index).remove();
-		this._getPanels().eq(index).trigger(DWZ.eventType.pageClear).remove();
-		this._getMoreLi().eq(index).remove();
-		if (this._currentIndex >= index) this._currentIndex--;
-		
-		if (openTabid) {
-			var openIndex = this._indexTabId(openTabid);
-			if (openIndex > 0) this._currentIndex = openIndex;
-		}
-		
-		this._init();
-		this._scrollCurrent();
-		this._reload(this._getTabs().eq(this._currentIndex));
+			if (openTabid) {
+				var openIndex = this._indexTabId(openTabid);
+				if (openIndex > 0) this._currentIndex = openIndex;
+			}
+			this._init();
+			this._scrollCurrent();
+			this._reload(this._getTabs().eq(this._currentIndex));
+		}.bind(this),100);
+
 	},
 	closeTab: function(tabid){
 		var index = this._indexTabId(tabid);

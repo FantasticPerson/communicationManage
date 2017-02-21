@@ -396,7 +396,7 @@ function contactsClick(){
         }
 function imClick(){
 	navTab.openTab('imid','{{.baseurl}}/im/main.do',{title:'IM管理',fresh:false,rel:'im'});
-	//navTab.openTab('imid','{{.baseurl}}/static/subapp/loginList/devices.tpl#/loginList',{title:'IM管理',fresh:false,rel:'im'});
+	//navTab.openTab('imid','{{.baseurl}}/static/subapp/appList/main.html#/loginList',{title:'IM管理',fresh:false,rel:'im',external:true});
 
 }
 function imClick2(){

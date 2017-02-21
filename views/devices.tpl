@@ -28,55 +28,36 @@
 <div id="react-root"></div>
 <!--js-->
 <script>
-    if(window.__react_tab_index__){
-        showUnitBox();
-    }
-    else {
-        loadCss({{.baseurl}}+'/static/subapp/common/main-bundle-[57949b80a7c8be11a69f83a5625bc99c].css');
-        loadScript({{.baseurl}}+'/static/subapp/common/main-bundle-[868d688842b2e4ad8881].js',function(){
-                setLoginListLocation();
-                });
-        var lis = $('.navTab-tab li');
-        var cli = $('a.devicesid:parent').parent()[0];
-        var tabIndex = -1;
-        for (var i = 0; i < lis.length; i++) {
-            if (lis[i] == cli) {
-                tabIndex = i;
-            }
-        }
-        window.__react_tab_index__ = tabIndex+1;
-    }
+    load();
     setLoginListLocation();
-    $('a.devicesid').on('click',function(){
+    $('a.devicesid').on('click', function () {
+        switchNode2(true);
         setLoginListLocation();
-        showUnitBox();
     });
-    var login_btn = $('.icon-login').parent().on('click',function(){
+    $('.icon-login').parent().on('click', function () {
+        switchNode2(true);
         setLoginListLocation();
-        showUnitBox();
     });
-    function setLoginListLocation(){
+    function setLoginListLocation() {
         var location = window.location.toString();
         var index = location.indexOf('main.do');
-        window.location = location.substring(0,index)+'main.do#/loginList';
+        window.location = location.substring(0, index) + 'main.do#/loginList';
     }
-    function showUnitBox(){
-        setTimeout(function(){
-            var index = window.__react_tab_index__ -1;
-            var unitBox = $('.layoutBox').children();
-            for(var i=0;i<unitBox.length;i++){
-                if(index != i) {
-                    unitBox[i].style.display='none';
-                } else {
-                    unitBox[i].style.display='block';
-                }
+    function showUnitBox2() {
+        var unitBox = $('.layoutBox').children();
+        var tabIndex = getTabIndex('a.devicesid:parent');
+        for (var i = 0; i < unitBox.length; i++) {
+            if (tabIndex != i) {
+                unitBox[i].style.display = 'none';
+            } else {
+                unitBox[i].style.display = 'block';
             }
-        },100);
+        }
     }
     function loadScript(url, callback) {
         var script = document.createElement("script");
         script.type = "text/javascript";
-        if(typeof(callback) != "undefined"){
+        if (typeof(callback) != "undefined") {
             if (script.readyState) {
                 script.onreadystatechange = function () {
                     if (script.readyState == "loaded" || script.readyState == "complete") {
@@ -93,13 +74,105 @@
         script.src = url;
         document.body.appendChild(script);
     }
-    function loadCss(url){
+    function loadCss(url) {
         var head = document.getElementsByTagName('head')[0];
         var link = document.createElement('link');
         link.href = url;
         link.rel = 'stylesheet';
         link.type = 'text/css';
         head.appendChild(link);
+    }
+    function getTabIndex(name){
+        var lis = $('.navTab-tab li');
+        var cli = $(name).parent()[0];
+        var tabIndex = -1;
+        for (var i = 0; i < lis.length; i++) {
+            if (lis[i] == cli) {
+                tabIndex = i;
+            }
+        }
+        return tabIndex;
+    }
+    function onNavClick2(args){
+        var id = args.id;
+        var cIndex = getTabIndex('a.appsid:parent');
+        var index = getReactNodeIndex()+1;
+        if(id == cIndex && index == id) {
+            switchNode2(false);
+        }
+        setTimeout(function(){
+            var $tabNode = $node = $('a.devicesid').parent();
+            console.log($tabNode);
+            if($tabNode.hasClass('selected')){
+                setLoginListLocation();
+            }
+        },200);
+    }
+    function load(){
+        if (hasReact2()) {
+            switchNode2(true);
+        }
+        else {
+            loadCss({{.baseurl}}+'/static/subapp/common/main-bundle-[9711b13801786ed19685a3c1a72bac0a].css');
+            loadScript({{.baseurl}}+'/static/subapp/common/main-bundle-[036c299d89f6b827350f].js', function () {
+                setLoginListLocation();
+            });
+            var tabIndex = getTabIndex('a.devicesid:parent');
+            $('.navTab-tab').on('myClick',function(e,args){
+                onNavClick2(args);
+            })
+
+        }
+    }
+    function switchNode2(show=false){
+        setTimeout(function() {
+            doSwitch2(show);
+        },100);
+    }
+    function getReactNodeIndex(){
+        if(hasReact2() <= 0){
+            return -1;
+        }
+        let index = -1;
+        var $units = $('.unitBox');
+        for(var i=0;i<$units.length;i++){
+            if($('.unitBox:eq('+i+')').children('#react-root').children('#react-app').length > 0){
+                index = i;
+                break;
+            }
+        }
+        return index;
+    }
+    function hasReact2(){
+        return $('#react-app').length > 0;
+    }
+
+    function doSwitch2(show){
+        var appIndex = getTabIndex('a.appsid:parent')-1;
+        var cIndex = getTabIndex('a.devicesid:parent')-1;
+        if(appIndex >= 0 && cIndex >= 0) {
+            var index = getReactNodeIndex();
+            if (appIndex > -1 && cIndex != index) {
+                var $node1 = $('.unitBox:eq(' + appIndex + ')');
+                var $node2 = $('.unitBox:eq(' + cIndex + ')');
+                if (Math.abs(appIndex - cIndex) == 1) {
+                    if(appIndex > cIndex) {
+                        $node1.insertBefore($node2);
+                    } else {
+                        $node1.insertAfter($node2);
+                    }
+                } else {
+                    var $node1Pre = $('.unitBox:eq(' + (appIndex - 1) + ')');
+                    var $node2Pre = $('.unitBox:eq(' + (cIndex - 1) + ')');
+                    $node1.insertAfter($node2Pre);
+                    $node2.insertAfter($node1Pre);
+                }
+                if(show) {
+                    console.log('switch box');
+                    showUnitBox2();
+                }
+            }
+        }
     }
 </script>
 </body>
